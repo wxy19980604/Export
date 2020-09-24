@@ -1,3 +1,5 @@
+package Utils;
+
 import java.io.UnsupportedEncodingException;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
@@ -135,7 +137,7 @@ public class TripleDES {
     public static void main(String[] args) {
         try {
 			/*
-			TripleDES tripleDes = new TripleDES();
+			Utils.TripleDES tripleDes = new Utils.TripleDES();
 			String uid = "tst";
 			String pwd = "password";
 			String uidpwd = uid + "||" + pwd;
